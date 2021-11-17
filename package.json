@@ -1,5 +1,5 @@
 {
-  "name": "request-promise",
+  "name": "bungee-request-promise",
   "version": "4.2.6",
   "description": "The simplified HTTP request client 'request' with Promise support. Powered by Bluebird.",
   "keywords": [
@@ -23,7 +23,7 @@
     "type": "git",
     "url": "git+https://github.com/request/request-promise.git"
   },
-  "author": "Nicolai Kamenzky (https://github.com/analog-nico)",
+  "author": "Bungeetech",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/request/request-promise/issues"
@@ -33,13 +33,11 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "request-promise-core": "1.1.4",
     "bluebird": "^3.5.0",
+    "bungee-request": "^2.88.1",
+    "request-promise-core": "1.1.4",
     "stealthy-require": "^1.1.1",
     "tough-cookie": "^2.3.3"
-  },
-  "peerDependencies": {
-    "request": "^2.34"
   },
   "devDependencies": {
     "body-parser": "~1.15.2",
@@ -52,7 +50,6 @@
     "gulp-mocha": "~2.2.0",
     "lodash": "~4.13.1",
     "publish-please": "~2.1.4",
-    "request": "^2.34.0",
     "rimraf": "~2.5.3",
     "run-sequence": "~1.2.2"
   }
